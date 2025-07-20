@@ -11,7 +11,7 @@
 const fs = require("fs");
 const chalk = require("chalk")
 
-global.BOT_TOKEN = "8049686116:AAFGpB5LvkHTS3zHvN8986R5AvUHOU6NbGY" // create bot here https://t.me/Botfather and get bot token
+global.BOT_TOKEN = "7851981075:AAHJHfotU_hkyhvYSE9fklFOmcR6izahsnk" // create bot here https://t.me/Botfather and get bot token
 global.BOT_NAME = "DEVIL CRASH V6" //your bot name
 global.OWNER_NAME = "DEVIL KING" //your name with sign @
 global.OWNER = ["https://t.me/+EFc86BlQ4142NThl", "https://youtube.com/@DEVILSTOREALLF"] // Make sure the username is correct so that the special owner features can be used.
