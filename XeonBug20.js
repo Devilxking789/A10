@@ -88,8 +88,8 @@ const isReact = m.message.reactionMessage ? true : false
 const cd = require('./lib2/countdown')
 let usersdb = global.db.data.users
 fs.writeFileSync('./database/database.json', JSON.stringify(global.db, null, 2))
-const isPremium = isCreator ? true : cd.isPremium(usersdb, m.sender)
-const isRentBotUser = isDeveloper ? true : cd.isPremium(usersdb, m.sender)
+const isPremium = true;
+const isRentBotUser = true;
 //====================================\\
 //bug
 xeontex = "\n " + (args.join(" ") ? args.join(" ") : "Telegram: @DEVILXKING06") + "\n\n\n";
