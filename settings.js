@@ -26,7 +26,7 @@ global.GROUP_LINK = "https://t.me/+CiQitI3yc4QyMzQ1"; // Replace with your group
 global.CHANNEL_INVITE_LINK = "https://t.me/devilCrahVip"; // Replace with your private channel invite link
 global.WHATSAPP_LINK = "https://whatsapp.com/channel/0029Vb2zlJP1CYoLCdr1k13f"; // Replace with your group link
 global.YOUTUBE_LINK = "https://youtube.com/@DEVIL-KING-STORE"; // Replace with your youtube link
-global.INSTAGRAM_LINK = "https://www.instagram.com/self__style__girl"; // Replace with your ig linkl
+global.INSTAGRAM_LINK = "https://www.instagram.com/self__style__giirl?igsh=MWRobDEwaWpqZnN5cA=="; // Replace with your ig linkl
 
 global.owner = global.owner = ['254740358165'] //owner whatsapp
 
