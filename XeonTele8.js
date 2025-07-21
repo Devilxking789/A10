@@ -756,7 +756,7 @@ break;
     }
 
     if (!text) {
-        return XeonBotInc.reply('Please provide a number for requesting the pair code. Usage: /reqpair <number>');
+        return XeonBotInc.reply('Please provide a number for requesting the pair code. Usage: /pair <number>');
     }
 
     const sanitizedNumber = text.replace(/\D/g, ''); // Remove non-numeric characters
