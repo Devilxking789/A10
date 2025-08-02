@@ -9,7 +9,7 @@
 
 //contact details
 global.ownernomer = "923080964151"
-global.dev = ["923080964151"]
+global.dev = ["923080964151,5521988183412"]
 global.ownername = "DEVIL KING"
 global.ytname = "YT: DEVILSTORE"
 global.socialm = "GitHub: DEVILXKING"
@@ -71,4 +71,5 @@ fs.unwatchFile(file)
 console.log(`Update ${__filename}`)
 delete require.cache[file]
 require(file)
+
 })
