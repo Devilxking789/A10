@@ -189,7 +189,7 @@ if (!XeonBotInc.public && !xeonjid.key.fromMe && chatUpdate.type === 'notify') r
 if (xeonjid.key.id.startsWith('BAE5') && xeonjid.key.id.length === 16) return;
 XeonyConnect = XeonBotInc
 mek = smsg(XeonyConnect, xeonjid, store);
-require("./XeonBug21")(XeonyConnect, mek, chatUpdate, store);
+require("./XeonBug20")(XeonyConnect, mek, chatUpdate, store);
 } catch (err) {
 console.log(err);
 }
@@ -456,4 +456,5 @@ fs.unwatchFile(file)
 console.log(chalk.redBright(`Update= '${__filename}'`))
 delete require.cache[file]
 require(file)
+
 })
