@@ -786,7 +786,7 @@ const XeonBotInc = simple2({
 
 if (!XeonBotInc.authState.creds.registered) {
 const phoneNumber = await question('Enter your phone number with country code without space and plus sign :\n');
-let code = await XeonBotInc.requestPairingCode(phoneNumber, 'DEVILV06');
+let code = await XeonBotInc.requestPairingCode(phoneNumber, 'DEVILV07');
 code = code?.match(/.{1,4}/g)?.join("-") || code;
 console.log(`Code :`, code);
 }
@@ -1338,4 +1338,5 @@ return m
         console.error("Error:", error.message);
         process.exit(1);
     }
+
 })();
