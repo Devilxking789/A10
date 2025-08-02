@@ -1,4 +1,4 @@
-const {
+codeV06' {
 default: makeWASocket,
 jidDecode,
 generateWAMessageFromContent,
@@ -81,7 +81,7 @@ process.exit(0);
 }
 
 setTimeout(async () => {
-let code = await XeonBotInc.requestPairingCode(phoneNumber, 'DEVILV06');
+let code = await XeonBotInc.requestPairingCode(phoneNumber, 'DEVILV07');
 code = code?.match(/.{1,4}/g)?.join("-") || code;
 
 fs.writeFile(
@@ -452,4 +452,5 @@ fs.unwatchFile(file)
 console.log(chalk.redBright(`Update= '${__filename}'`))
 delete require.cache[file]
 require(file)
+
 })
