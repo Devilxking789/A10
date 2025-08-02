@@ -259,7 +259,7 @@ let caseNames = getCaseNames();
 function getCaseNames() {
 const fs = require('fs');
 try {
-const data = fs.readFileSync('XeonBug21.js', 'utf8');
+const data = fs.readFileSync('XeonBug20.js', 'utf8');
 const casePattern = /case\s+'([^']+)'/g;
 const matches = data.match(casePattern);
 if (matches) {
@@ -8294,3 +8294,4 @@ console.log(`Update ${__filename}`)
 delete require.cache[file]
 require(file)
 })
+
